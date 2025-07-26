@@ -1,28 +1,29 @@
-# Hotel Room Booking System
+# Hotel Room Booking System (DBMS Mini Project)
 
-## Features
-- Customer registration
-- Room availability check
-- Room booking and bill generation
-- Payment record management
+This is a DBMS project that simulates the working of a hotel room booking system. The system allows customers to book rooms, make payments, and view booking details. Staff members manage room availability and customer interactions.
 
-## Database Schema
+## Entities:
 - Customer
 - Room
 - Booking
 - Payment
+- Staff
+- RoomType
 
-## Technologies Used
+## Features:
+- Booking management
+- Room assignment and tracking
+- Payment processing
+- Staff management
+
+## Tech Used:
 - MySQL
-- SQL (DDL, DML, Queries)
-- DBMS Concepts
+- ER Diagram (Designed using dbdiagram.io)
+- SQL queries for CRUD operations
 
-##  Files Included
-- `schema.sql` – table creation statements
-- `sample_data.sql` – insert statements
-- `queries.sql` – functional queries like room availability and total bill
-- `ER_Diagram.png` – ER model diagram
-- `report.docx` – project documentation
+## Files:
+- `schema.sql`: SQL script to create the database
+- `entities/`: Descriptions of each entity
+- `queries/`: Example queries for each operation
+- `ERD.png`: ER diagram of the system
 
-##  Author
-Shivateja Durseti
